@@ -3,7 +3,7 @@ import HomeContent from "@/components/HomeContent";
 
 export default async function HomePage() {
   return (
-    <div className="relative min-h-[calc(100vh-80px)] flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-[45vh] md:min-h-[55vh] lg:min-h-[60vh] flex items-center justify-center overflow-hidden py-6 md:py-8">
       {/* Background Image with Overlay - Adjusted positioning */}
       <div className="absolute inset-0 z-0">
         <Image
