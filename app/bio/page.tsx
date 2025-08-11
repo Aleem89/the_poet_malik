@@ -13,7 +13,7 @@ export default async function BioPage() {
           <div className="relative h-[400px] md:h-[650px] rounded-full overflow-hidden">
             {/* Highlight: Changed rounded-lg to rounded-full to create the oval */}
             <Image
-              src="/background-bio.jpg"
+              src="/background-bio.png"
               alt="The Poet Malik"
               fill
               className="object-cover object-left-top"

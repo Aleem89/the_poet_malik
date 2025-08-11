@@ -5,14 +5,21 @@ import SocialLinks from "./SocialLinks";
 
 export default function HomeContent() {
   return (
-    <div className="relative z-10 text-left px-6 max-w-4xl ml-8 md:ml-16 lg:ml-24 py-4 md:py-8">
+    <div className="absolute left-0 top-1/2 transform -translate-y-1/2 translate-y-[-5vh] z-10 text-left pl-6 md:pl-12 lg:pl-16 w-1/3 min-w-80">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
+        className="space-y-2"
       >
-        <p className="text-lg md:text-xl lg:text-2xl text-soft-white/80 font-light max-w-2xl mb-6 md:mb-8">
-          Poetry. Music. Stories. From the heart of Fort Worth.
+        <p className="text-lg md:text-xl lg:text-2xl text-soft-white font-light leading-relaxed">
+          Poetry. Music. Stories.
+        </p>
+        <p className="text-lg md:text-xl lg:text-2xl text-soft-white/80 font-light leading-relaxed">
+          From the heart of
+        </p>
+        <p className="text-lg md:text-xl lg:text-2xl text-accent-gold font-light leading-relaxed">
+          Fort Worth
         </p>
 
         {/* Social Media Links */}
@@ -20,9 +27,9 @@ export default function HomeContent() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-6 md:mt-8"
+          className="pt-6 md:pt-8"
         >
-          <p className="text-sm md:text-base text-soft-white/60 mb-4 md:mb-6 font-light">
+          <p className="text-sm md:text-base text-soft-white/60 mb-4 font-light">
             Connect with me
           </p>
           <div className="flex justify-start">
