@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-3">
           {/* Brand Section */}
           <div className="flex-shrink-0">
-            <h3 className="text-display text-xl font-bold text-gradient">
+            <h3 className="text-display text-xl font-bold text-metallic">
               The Poet Malik
             </h3>
           </div>

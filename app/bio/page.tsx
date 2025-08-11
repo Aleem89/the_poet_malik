@@ -10,17 +10,15 @@ export default async function BioPage() {
       <div className="container mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image Column */}
-          <div className="relative h-[400px] md:h-[650px] rounded-full overflow-hidden">
-            {/* Highlight: Changed rounded-lg to rounded-full to create the oval */}
+          <div className="relative h-[400px] md:h-[650px] organic-blob-mask">
             <Image
               src="/background-bio.png"
               alt="The Poet Malik"
               fill
               className="object-cover object-left-top"
-              // Highlight: Changed object-top to object-left-top to shift the focus
               quality={100}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-off-black/60 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-off-black/60 to-transparent organic-blob-mask" />
           </div>
 
           {/* Text Column - Moved to Client Component */}

@@ -30,7 +30,7 @@ export default function Header() {
           {/* Logo/Name */}
           <Link
             href="/"
-            className="text-2xl font-bold text-gradient hover:opacity-80 transition-opacity duration-300"
+            className="text-2xl font-bold text-metallic text-metallic-hover"
           >
             The Poet Malik
           </Link>
