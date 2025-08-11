@@ -54,11 +54,11 @@ export default function SocialLinks({
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`p-3 md:p-4 bg-dark-charcoal/80 backdrop-blur-sm hover:bg-accent-gold/20 border border-accent-gold/20 hover:border-accent-gold/60 rounded-full transition-all duration-300 hover:scale-110 hover-lift ${social.color} group`}
+              className={`p-2.5 md:p-4 bg-dark-charcoal/80 backdrop-blur-sm hover:bg-accent-gold/20 border border-accent-gold/20 hover:border-accent-gold/60 rounded-full transition-all duration-300 hover:scale-110 hover-lift ${social.color} group`}
               aria-label={social.label}
             >
               <IconComponent
-                size={20}
+                size={18}
                 className="md:w-6 md:h-6 text-soft-white group-hover:text-accent-gold transition-colors duration-300"
               />
             </Link>
