@@ -94,11 +94,11 @@ html {
 .text-metallic {
     background: linear-gradient(
         135deg,
-        #f4e4a6 0%,
-        #e6c96b 25%,
-        #d9b56c 50%,
-        #c9a96e 75%,
-        #e6c96b 100%
+        #f0e6d2 0%,
+        #d4c4a0 25%,
+        #c4a574 50%,
+        #b59a6b 75%,
+        #d4c4a0 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

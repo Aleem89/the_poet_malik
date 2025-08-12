@@ -18,6 +18,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)"],
+        montserrat: ["var(--font-montserrat)"],
       },
     },
   },
