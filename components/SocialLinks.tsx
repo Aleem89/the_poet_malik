@@ -54,7 +54,18 @@ export default function SocialLinks({
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`p-2.5 md:p-4 bg-dark-charcoal/80 backdrop-blur-sm hover:bg-accent-gold/20 border border-accent-gold/20 hover:border-accent-gold/60 rounded-full transition-all duration-300 hover:scale-110 hover-lift ${social.color} group`}
+              className={`p-2.5 md:p-4 
+                bg-black/60 md:bg-dark-charcoal/80 
+                backdrop-blur-sm 
+                hover:bg-accent-gold/20 
+                border-2 md:border 
+                border-accent-gold/60 md:border-accent-gold/20 
+                hover:border-accent-gold 
+                rounded-full 
+                transition-all duration-300 
+                hover:scale-110 hover-lift 
+                shadow-lg md:shadow-none
+                ${social.color} group`}
               aria-label={social.label}
             >
               <IconComponent
