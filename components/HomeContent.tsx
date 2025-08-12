@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 
 export default function HomeContent() {
   return (
-    <div className="absolute left-0 top-8 md:top-12 lg:top-16 z-10 text-left pl-4 sm:pl-6 md:pl-12 lg:pl-16 w-full sm:w-2/3 md:w-1/2 lg:w-1/3 max-w-md sm:max-w-lg md:max-w-xl">
+    <div className="absolute left-0 bottom-8 md:top-8 md:bottom-auto md:top-12 lg:top-16 z-10 text-left pl-4 sm:pl-6 md:pl-12 lg:pl-16 w-full sm:w-2/3 md:w-1/2 lg:w-1/3 max-w-md sm:max-w-lg md:max-w-xl">
       {/* Blurred backdrop patch */}
       <div className="absolute inset-0 -m-4 sm:-m-6 md:-m-8 bg-black/20 backdrop-blur-md rounded-xl border border-white/10" />
       
