@@ -172,6 +172,25 @@ html {
         0px 0px 15px rgba(212, 175, 55, 0.3);
 }
 
+/* Alternative white version with 3D effect and outline */
+.header-logo-white-3d {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #e8e8e8; /* Less bright white */
+    text-shadow:
+        /* Outline effect */
+        -1px -1px 0px rgba(0, 0, 0, 0.8),
+        1px -1px 0px rgba(0, 0, 0, 0.8),
+        -1px 1px 0px rgba(0, 0, 0, 0.8),
+        1px 1px 0px rgba(0, 0, 0, 0.8),
+        /* 3D depth shadows */
+        0px 2px 1px rgba(0, 0, 0, 0.6),
+        0px 3px 2px rgba(0, 0, 0, 0.4),
+        0px 4px 3px rgba(0, 0, 0, 0.3),
+        /* Subtle glow */
+        0px 0px 15px rgba(232, 232, 232, 0.2);
+}
+
 /* Glass morphism effect for header */
 .bg-glass {
     background: rgba(17, 17, 17, 0.9);

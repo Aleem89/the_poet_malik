@@ -126,6 +126,16 @@ export default function ContactPage() {
                     <span>@thepoetmalik</span>
                   </Link>
                   <Link
+                    href="https://youtube.com/@thepoetmalik"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-3 text-soft-white/80 hover:text-accent-gold transition-colors duration-300"
+                  >
+                    <Youtube size={24} />
+                    <span>YouTube Channel</span>
+                  </Link>
+                  {/* Spotify link commented out
+                  <Link
                     href="https://spotify.com"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -134,23 +144,15 @@ export default function ContactPage() {
                     <Music size={24} />
                     <span>The Poet Malik on Spotify</span>
                   </Link>
+                  */}
                   <Link
-                    href="https://amazon.com"
+                    href="https://www.amazon.com/Painted-Prison-Collection-Poems/dp/151140048X?dib=eyJ2IjoiMSJ9.UZnvCID8uFbdHsV3T3Pe9Q.rpv2uPgvYalEt7Sh4hNPkFgW1tdktwA7fHN51gLfN3Q&dib_tag=se&qid=1754971214&refinements=p_27%3AD+Malik+Gratts&s=books&sr=1-3&text=D+Malik+Gratts"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 text-soft-white/80 hover:text-accent-gold transition-colors duration-300"
                   >
                     <ShoppingBag size={24} />
                     <span>Books on Amazon</span>
-                  </Link>
-                  <Link
-                    href="https://youtube.com/@thepoetmalik"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center space-x-3 text-soft-white/80 hover:text-accent-gold transition-colors duration-300"
-                  >
-                    <Youtube size={24} />
-                    <span>YouTube Channel</span>
                   </Link>
                 </div>
               </div>

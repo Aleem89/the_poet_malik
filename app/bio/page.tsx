@@ -12,7 +12,7 @@ export default async function BioPage() {
           {/* Image Column */}
           <div className="relative h-[400px] md:h-[650px] organic-blob-mask">
             <Image
-              src="/background-bio.png"
+              src="/background-bio.jpg"
               alt="The Poet Malik"
               fill
               className="object-cover object-left-top"
