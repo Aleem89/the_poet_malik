@@ -41,7 +41,7 @@ export default function Header() {
           {/* Logo/Name with enhanced typography */}
           <Link
             href="/"
-            className="text-display text-2xl md:text-3xl header-logo-white-3d hover:scale-105 transition-transform duration-300 focus-ring"
+            className="text-display text-2xl md:text-3xl header-logo-montserrat hover:scale-105 transition-transform duration-300 focus-ring"
           >
             The Poet Malik
           </Link>
