@@ -18,26 +18,26 @@ export default function SocialLinks({
       color: "hover:text-pink-400",
       label: "@thepoetmalik",
     },
-    {
+    /** {
       name: "Spotify",
       icon: Music,
       href: "https://spotify.com/artist/thepoetmalik",
       color: "hover:text-green-400",
       label: "Listen on Spotify",
-    },
-    {
-      name: "Amazon",
-      icon: ShoppingBag,
-      href: "https://amazon.com/author/thepoetmalik",
-      color: "hover:text-orange-400",
-      label: "Books on Amazon",
-    },
+    }, **/
     {
       name: "YouTube",
       icon: Youtube,
       href: "https://youtube.com/@thepoetmalik",
       color: "hover:text-red-400",
       label: "Watch on YouTube",
+    },
+    {
+      name: "Amazon",
+      icon: ShoppingBag,
+      href: "https://www.amazon.com/s?i=stripbooks&rh=p_27%3AD%2BMalik%2BGratts&s=relevancerank&text=D+Malik+Gratts",
+      color: "hover:text-orange-400",
+      label: "Books on Amazon",
     },
   ];
 
