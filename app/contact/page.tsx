@@ -32,7 +32,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="relative min-h-[calc(100vh-160px)]">
+    <div className="relative min-h-[calc(100vh-240px)]">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image

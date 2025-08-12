@@ -3,7 +3,7 @@ import HomeContent from "@/components/HomeContent";
 
 export default async function HomePage() {
   return (
-    <div className="relative flex items-center justify-center overflow-hidden" style={{ height: 'calc(100vh - 160px)' }}>
+    <div className="relative flex items-center justify-center overflow-hidden" style={{ height: 'calc(100vh - 240px)' }}>
       {/* Background Image with Overlay - Adjusted positioning */}
       <div className="absolute inset-0 z-0">
         <Image

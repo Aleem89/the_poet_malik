@@ -6,7 +6,7 @@ export default async function BioPage() {
   const bio = await getBioContent();
 
   return (
-    <div className="min-h-[calc(100vh-160px)]">
+    <div className="min-h-[calc(100vh-240px)]">
       <div className="container mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image Column */}

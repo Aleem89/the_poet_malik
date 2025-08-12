@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* Custom font declarations */
+@font-face {
+    font-family: "Montserrat";
+    src: url("/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Custom scrollbar for dark theme */
 ::-webkit-scrollbar {
     width: 10px;
@@ -94,11 +103,11 @@ html {
 .text-metallic {
     background: linear-gradient(
         135deg,
-        #f0e6d2 0%,
-        #d4c4a0 25%,
-        #c4a574 50%,
-        #b59a6b 75%,
-        #d4c4a0 100%
+        #f4e4a6 0%,
+        #e6c96b 25%,
+        #d9b56c 50%,
+        #c9a96e 75%,
+        #e6c96b 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -135,6 +144,47 @@ html {
 
 .text-body {
     @apply font-normal tracking-normal;
+}
+
+/* Custom font classes */
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header logo with Montserrat and custom gradient */
+.header-logo-montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; /* Semi-bold instead of bold */
+    background: linear-gradient(
+        135deg,
+        #d4af37 0%,
+        #f0d878 25%,
+        #e6c96b 50%,
+        #d4af37 75%,
+        #c19b26 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow:
+        0px 1px 0px rgba(255, 255, 255, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.3),
+        0px 0px 15px rgba(212, 175, 55, 0.3);
+}
+
+/* Glass morphism effect for header */
+.bg-glass {
+    background: rgba(17, 17, 17, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Shadow utilities */
+.shadow-medium {
+    box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.3),
+        0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 
 /* Additional color classes */
