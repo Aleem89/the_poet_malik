@@ -35,7 +35,7 @@ export default function SocialLinks({
     {
       name: "Amazon",
       icon: ShoppingBag,
-      href: "https://www.amazon.com/s?i=stripbooks&rh=p_27%3AD%2BMalik%2BGratts&s=relevancerank&text=D+Malik+Gratts",
+      href: "https://www.amazon.com/Painted-Prison-Collection-Poems/dp/151140048X?dib=eyJ2IjoiMSJ9.UZnvCID8uFbdHsV3T3Pe9Q.rpv2uPgvYalEt7Sh4hNPkFgW1tdktwA7fHN51gLfN3Q&dib_tag=se&qid=1754971214&refinements=p_27%3AD+Malik+Gratts&s=books&sr=1-3&text=D+Malik+Gratts",
       color: "hover:text-orange-400",
       label: "Books on Amazon",
     },
@@ -54,16 +54,16 @@ export default function SocialLinks({
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`p-2.5 md:p-4 
-                bg-black/60 md:bg-dark-charcoal/80 
-                backdrop-blur-sm 
-                hover:bg-accent-gold/20 
-                border-2 md:border 
-                border-accent-gold/60 md:border-accent-gold/20 
-                hover:border-accent-gold 
-                rounded-full 
-                transition-all duration-300 
-                hover:scale-110 hover-lift 
+              className={`p-2.5 md:p-4
+                bg-black/60 md:bg-dark-charcoal/80
+                backdrop-blur-sm
+                hover:bg-accent-gold/20
+                border-2 md:border
+                border-accent-gold/60 md:border-accent-gold/20
+                hover:border-accent-gold
+                rounded-full
+                transition-all duration-300
+                hover:scale-110 hover-lift
                 shadow-lg md:shadow-none
                 ${social.color} group`}
               aria-label={social.label}
