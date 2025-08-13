@@ -9,6 +9,30 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Cinzel Decorative";
+    src: url("/CinzelDecorative-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cinzel Decorative";
+    src: url("/CinzelDecorative-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cinzel Decorative";
+    src: url("/CinzelDecorative-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Custom scrollbar for dark theme */
 ::-webkit-scrollbar {
     width: 10px;
@@ -155,6 +179,27 @@ html {
 .header-logo-montserrat {
     font-family: "Montserrat", sans-serif;
     font-weight: 600; /* Semi-bold instead of bold */
+    background: linear-gradient(
+        135deg,
+        #d4af37 0%,
+        #f0d878 25%,
+        #e6c96b 50%,
+        #d4af37 75%,
+        #c19b26 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow:
+        0px 1px 0px rgba(255, 255, 255, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.3),
+        0px 0px 15px rgba(212, 175, 55, 0.3);
+}
+
+/* Header logo with Cinzel Decorative and custom gradient */
+.header-logo-cinzel {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700; /* Bold version for good readability */
     background: linear-gradient(
         135deg,
         #d4af37 0%,
