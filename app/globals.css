@@ -202,19 +202,16 @@ html {
     font-weight: 700; /* Bold version for good readability */
     background: linear-gradient(
         135deg,
-        #d4af37 0%,
-        #f0d878 25%,
-        #e6c96b 50%,
+        #faf5e4 0%,
+        #f0d553 25%,
+        #e6c547 50%,
         #d4af37 75%,
-        #c19b26 100%
+        #f0d553 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-shadow:
-        0px 1px 0px rgba(255, 255, 255, 0.1),
-        0px 2px 1px rgba(0, 0, 0, 0.3),
-        0px 0px 15px rgba(212, 175, 55, 0.3);
+    color: #d4af37; /* Fallback color for browsers that don't support background-clip */
 }
 
 /* Alternative white version with 3D effect and outline */
@@ -228,12 +225,10 @@ html {
         1px -1px 0px rgba(0, 0, 0, 0.8),
         -1px 1px 0px rgba(0, 0, 0, 0.8),
         1px 1px 0px rgba(0, 0, 0, 0.8),
-        /* 3D depth shadows */
-        0px 2px 1px rgba(0, 0, 0, 0.6),
+        /* 3D depth shadows */ 0px 2px 1px rgba(0, 0, 0, 0.6),
         0px 3px 2px rgba(0, 0, 0, 0.4),
         0px 4px 3px rgba(0, 0, 0, 0.3),
-        /* Subtle glow */
-        0px 0px 15px rgba(232, 232, 232, 0.2);
+        /* Subtle glow */ 0px 0px 15px rgba(232, 232, 232, 0.2);
 }
 
 /* White version with gold outline */
@@ -247,12 +242,10 @@ html {
         1px -1px 0px rgba(212, 175, 55, 0.9),
         -1px 1px 0px rgba(212, 175, 55, 0.9),
         1px 1px 0px rgba(212, 175, 55, 0.9),
-        /* 3D depth shadows */
-        0px 2px 1px rgba(0, 0, 0, 0.6),
+        /* 3D depth shadows */ 0px 2px 1px rgba(0, 0, 0, 0.6),
         0px 3px 2px rgba(0, 0, 0, 0.4),
         0px 4px 3px rgba(0, 0, 0, 0.3),
-        /* Gold glow */
-        0px 0px 20px rgba(212, 175, 55, 0.4);
+        /* Gold glow */ 0px 0px 20px rgba(212, 175, 55, 0.4);
 }
 
 /* Glass morphism effect for header */
